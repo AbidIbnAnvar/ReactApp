@@ -1,0 +1,80 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.main{
+    margin-top: 92px;
+    
+}
+
+.textblock{
+    margin-top: 17%;
+    width: 90%;
+    height:150%;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:10%;
+    width:80%;
+    height:400px;
+    bottom: 20%;
+}
+
+.contact1,.contact2,.contact3  {
+    width:28%;
+    color: white;
+    background-color: black ;
+    border: 3px solid red;
+    height: auto;
+    border-radius: 24px;
+}
+.contact1:hover,.contact2:hover,.contact3:hover  {
+    border: 3px solid rgb(255, 176, 176);  
+}
+
+.icons{
+    text-align: center;
+    margin-left:57.5%;
+    margin-top:20%;
+    transform: translate(-50%);
+    scale:2;
+    padding: 0px;
+    background-color: rgb(255, 47, 47);
+    border-radius: 32px;
+    width:15%;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color:rgb(255, 255, 255);
+}
+
+.icon-text{
+    font-size: 20px;
+    margin-top:15%;
+    text-align: center;
+    color:rgb(255, 176, 176);
+
+}
+
+@media screen and (max-width: 1200px){
+    .icons{
+        scale:2.0;
+    }
+    .contacts{
+        height: 300px;
+    }
+}
+
+
+
+
+.footer{
+    height: 300px;
+    margin-top: 60%;
+}
+

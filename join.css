@@ -1,0 +1,68 @@
+.main{
+    margin-top: 110px;
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+.main h1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 40px;
+}
+
+.boxes{
+    display: flex;
+    position:relative;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    align-self: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height:400px;
+}
+.boxes h2{
+    font-size: 24px;
+    color: white;
+}
+
+.boxes .price-container{
+    align-items: center;
+    border: 3px solid rgb(255, 47, 47);
+    background-color: rgb(255, 47, 47);
+    color: white;
+    height: auto;
+    width:-moz-fit-content;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 24px 0px 24px;
+    border-radius: 100px;
+}
+
+.boxes .price{
+    font-size: 30px;
+    color: white;
+}
+
+.box1,.box2,.box3{
+    width:20%;
+    margin-left:3%;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 16px;
+    text-align: center;
+    min-width: 200px;
+
+
+}
+
+
+
+.footer{
+    margin-bottom: 0px;
+    width: 100%;
+    margin-right: 0px;
+}
